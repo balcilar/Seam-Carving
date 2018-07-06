@@ -1,7 +1,7 @@
 # Seam-Carving
 Seam Carving for Content-Aware Image Resizing
 
-This project is the reimplementation of research about content-aware resizing paper [1].
+This project is the reimplementation of research about content-aware resizing paper [1]. The main idea of that paper was to find non-flat line so called "seam" which has minimum energy using dynamic programming for both vertical and horizontal line.  
 
 
 
