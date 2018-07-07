@@ -1,7 +1,7 @@
 clear all
 clc
 
-im=imread('input/Prague.jpg');
+im=imread('Input/Prague.jpg');
 
 energyImg = energy_img(im);
 
