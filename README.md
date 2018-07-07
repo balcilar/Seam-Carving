@@ -7,7 +7,13 @@ This project is the reimplementation of research about content-aware resizing pa
 ![Alt text](seam_resize.png?raw=true "Title")
 
 ## Run
-To run the code just run seam_carving_decrease_height.m or seam_carving_decrease_width.m script for horizontal and vertical resolution decreasing respectively. Following figure shows the original input, 100 pixel width decreased output and 50 pixel height decreased output.
+To run the code just run following scripts;
+''' > seam_carving_decrease_height.m
+'''
+or 
+''' > seam_carving_decrease_width.m 
+'''
+for horizontal and vertical resolution decreasing respectively. Following figure shows the original input, 100 pixel width decreased output and 50 pixel height decreased output.
 
 ![Alt text](seam.jpg?raw=true "Title")
 
