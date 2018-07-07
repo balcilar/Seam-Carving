@@ -9,13 +9,13 @@ This project is the reimplementation of research about content-aware resizing pa
 ## Run
 To run the code just run following scripts;
 ```matlab
-> seam_carving_decrease_height.m
+> seam_carving_decrease_height
 ```
 
 or 
 
 ``` Matlab
-> seam_carving_decrease_width.m 
+> seam_carving_decrease_width 
 ```
 
 for horizontal and vertical resolution decreasing respectively. Following figure shows the original input, 100 pixel width decreased output and 50 pixel height decreased output.
