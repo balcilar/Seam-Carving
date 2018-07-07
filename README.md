@@ -22,6 +22,6 @@ for horizontal and vertical resolution decreasing respectively. Following figure
 
 ![Alt text](seam.jpg?raw=true "Title")
 
-
+## Reference
 [1] Avidan, S. and Shamir, A., 2007, August. Seam carving for content-aware image resizing. In ACM Transactions on graphics (TOG) (Vol. 26, No. 3, p. 10). ACM.
 
