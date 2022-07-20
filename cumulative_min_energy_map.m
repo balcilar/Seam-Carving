@@ -17,7 +17,7 @@ elseif strcmp('HORIZONTAL',seamDirection)
     M(end,2:end)=inf;
     for i=2:size(M,2)
         m = movmin(M(:,i-1),3);
-        M(:,i) = energyImg(:,i) + m;
+        M(:,i) = energyImg(:,i) + m; 
     end
 end
 
