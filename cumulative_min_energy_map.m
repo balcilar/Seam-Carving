@@ -3,8 +3,6 @@ M=zeros(size(energyImg));
 if strcmp('VERTICAL',seamDirection)   
     
     M(1,:)=energyImg(1,:);
-    M(2:end,1)=inf;
-    M(2:end,end)=inf;
     for i=2:size(M,1)
         m = movmin(M(i-1,:),3);
         M(i,:) = energyImg(i,:) + m; 
@@ -13,11 +11,9 @@ if strcmp('VERTICAL',seamDirection)
 elseif strcmp('HORIZONTAL',seamDirection)
     
     M(:,1)=energyImg(:,1);
-    M(1,2:end)=inf;
-    M(end,2:end)=inf;
     for i=2:size(M,2)
         m = movmin(M(:,i-1),3);
-        M(:,i) = energyImg(:,i) + m; 
+        M(:,i) = energyImg(:,i) + m;
     end
 end
 
